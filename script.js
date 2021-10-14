@@ -32,35 +32,35 @@ $(document).ready(function () {
         })
     }
 
-    $("#hour4am .description").val(localStorage.getItem("hour4am"));
+    $("#hour4 .description").val(localStorage.getItem("hour4"));
 
-    $("#hour5am .description").val(localStorage.getItem("hour5am"));
+    $("#hour5 .description").val(localStorage.getItem("hour5"));
 
-    $("#hour6am .description").val(localStorage.getItem("hour6am"));
+    $("#hour6 .description").val(localStorage.getItem("hour6"));
 
-    $("#hour7am .description").val(localStorage.getItem("hour7am"));
+    $("#hour7 .description").val(localStorage.getItem("hour7"));
 
-    $("#hour8am .description").val(localStorage.getItem("hour8am"));
+    $("#hour8 .description").val(localStorage.getItem("hour8"));
 
-    $("#hour9am .description").val(localStorage.getItem("hour9am"));
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
 
-    $("#hour10am .description").val(localStorage.getItem("hour10am"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
 
-    $("#hour11am .description").val(localStorage.getItem("hour11am"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
 
-    $("#hour12pm .description").val(localStorage.getItem("hour12pm"));
+    $("#hour12 .description").val(localStorage.getItem("hour12"));
 
-    $("#hour1pm .description").val(localStorage.getItem("hour1pm"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
 
-    $("#hour2pm .description").val(localStorage.getItem("hour2pm"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
 
-    $("#hour3pm .description").val(localStorage.getItem("hour3pm"));
+    $("#hour15 .description").val(localStorage.getItem("hour15"));
 
-    $("#hour4pm .description").val(localStorage.getItem("hour4pm"));
+    $("#hour16 .description").val(localStorage.getItem("hour16"));
 
-    $("#hour5pm .description").val(localStorage.getItem("hour5pm"));
+    $("#hour17 .description").val(localStorage.getItem("hour17"));
 
-    $("#hour6pm .description").val(localStorage.getItem("hour6pm"));
+    $("#hour18 .description").val(localStorage.getItem("hour18"));
 
     getTime();
 })
